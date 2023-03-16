@@ -10,6 +10,10 @@ body {
     line-height: 1.5;
     font-family: monospace;
     background-color: aliceblue;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 main {
@@ -17,6 +21,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    width: 100%;
 }
 
 .content-container {
@@ -157,7 +162,8 @@ footer {
     height: 10vh;
     align-items: center;
     font-size: 1rem;
-    box-shadow: inset 0px 3px 15px 0px #0000006e;
+    box-shadow: inset 0px 5px 3px -3px rgba(50, 50, 50, 0.75);
+    width: 100%;
 }
 
 @keyframes defil {
