@@ -20,7 +20,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60rem;
+    margin-top : 10rem;
     width: 100%;
 }
 
@@ -159,11 +159,13 @@ footer {
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    height: 10vh;
     align-items: center;
     font-size: 1rem;
     box-shadow: inset 0px 5px 3px -3px rgba(50, 50, 50, 0.75);
     width: 100%;
+    position: fixed;
+    bottom : 0;
+    left : 0;
 }
 
 @keyframes defil {
